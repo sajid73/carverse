@@ -1,7 +1,7 @@
 import React from "react";
-import { View, Text, ImageBackground } from "react-native";
+import { ImageBackground, Text, View } from "react-native";
 import StyledButton from "../StyledButton";
-import style from './styles';
+import styles from "./styles";
 
 const CarItem = (props) => {
   return (
@@ -16,9 +16,21 @@ const CarItem = (props) => {
         <Text style={styles.subtitle}>Starting at $69,420</Text>
       </View>
 
-      <StyledButton />
+      <StyledButton
+        type="primary"
+        content={"Custom Order"}
+        onPress={() => {
+          console.warn("custom data was Pressed");
+        }}
+      />
 
-
+      <StyledButton
+        type="secondary"
+        content={"Existing Inventory"}
+        onPress={() => {
+          console.warn("Existing Inventory was Pressed");
+        }}
+      />
     </View>
   );
 };
