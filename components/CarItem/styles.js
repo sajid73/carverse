@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 16,
-    color: "#5c5e62",
+    color: "#181A18",
   },
   image: {
     width: "100%",
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     position: "absolute",
-    bottom: 50,
+    bottom: 30,
     width: "100%",
   },
 });
