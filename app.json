@@ -28,7 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "",
+    "description": "A real state app for showcasing different houses and projects",
     "githubUrl": "https://github.com/sajid73/carverse"
   }
 }
