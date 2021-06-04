@@ -20,17 +20,17 @@ const CarItem = (props) => {
       <View style={styles.buttonContainer}>
         <StyledButton
           type="primary"
-          content={"Custom Order"}
+          content={"Get A tour"}
           onPress={() => {
-            console.warn("custom data was Pressed");
+            console.warn("Get A tour was Pressed");
           }}
         />
 
         <StyledButton
           type="secondary"
-          content={"Existing Inventory"}
+          content={"Book this house"}
           onPress={() => {
-            console.warn("Existing Inventory was Pressed");
+            console.warn("Book this house was Pressed");
           }}
         />
       </View>
